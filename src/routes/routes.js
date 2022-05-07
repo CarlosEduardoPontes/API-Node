@@ -5,7 +5,7 @@ router.get('/',function(req,res,next){
     res.send("hello world")
 })
 router.get('/home',function(req,res,next){
-    res.send("hello world")
+    res.send("home")
 })
 router.get('/cadastro',function(req,res,next){
     res.send("Cadastre-se")
