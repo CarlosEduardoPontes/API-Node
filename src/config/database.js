@@ -1,9 +1,10 @@
 const config = {
   username: 'postgres',
-  password: 'postgres',
+  password: "password",
   database: 'sistemaCadastro',
   host: 'localhost',
-  dialect: 'postgres' 
+  dialect: 'postgres',
+  port: '5432' 
 }
 
 module.exports = config;

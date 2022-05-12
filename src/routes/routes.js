@@ -1,9 +1,11 @@
 const express = require('express')
 const router = express.Router()
+const CadastroControler = require('../controllers/CadastroControler')
+const LoginController = require('../controllers/LoginController')
 
-router.get('/',function(req,res,next){
-    res.send("hello world")
-})
+router.post('/api/cadastro/create', CadastroControler.create);                                                                                      
+router.post('/api/login', LoginController.create); 
+
 router.get('/home',function(req,res,next){
     res.send("home")
 })

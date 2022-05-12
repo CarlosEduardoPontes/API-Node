@@ -13,7 +13,7 @@ module.exports = {
         type: Sequelize.STRING(150),
         allowNull: false
       },
-      sobreNome: {
+      sobre_nome: {
         type: Sequelize.STRING(50),
         allowNull: false
       },
