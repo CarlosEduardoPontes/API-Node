@@ -8,8 +8,8 @@ module.exports = {
 
     async create(req,res,next){
         try{
-            let c = await Cadastro.create({ ...req.body })
-            return res.status(201).json(c);
+            let l = await Cadastro.create({ ...req.body })
+            return res.status(201).json(l);
         }catch(error){
             return res.status(400).json({message: "Error: " + error.message})
         }

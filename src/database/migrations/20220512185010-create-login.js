@@ -4,7 +4,7 @@ const { password } = require("pg/lib/defaults");
 
 module.exports = {
   up: async (queryInterface, Sequelize) => {
-    await queryInterface.createTable('login',{
+    await queryInterface.createTable('Login',{
       id:{
         type: Sequelize.INTEGER,
         primarykey: true,
